@@ -1,0 +1,11 @@
+# non uniform graph this works on numerical
+
+import numpy as np
+import matplotlib.pyplot as plt
+cgpa = np.array([6, 6.5, 7, 7.8, 8, 8.6, 9, 9.2, 9.5, 10])
+package = np.array([4, 4.5, 5, 5.8, 6.2, 6.8, 7, 7.5, 8, 10])
+plt.plot(cgpa, package)
+plt.xlabel("CGPA")
+plt.ylabel("PACKAGES")
+plt.title("CGPA vs PACKAGES")
+plt.show()
