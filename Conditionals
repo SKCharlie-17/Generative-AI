@@ -1,0 +1,12 @@
+# conditionals  statement---
+#  if -- this statement execute when conditional is true
+# elif-- this statement execute when conditional is true
+# else-- this statement execute when conditional if and elif are false
+
+age = int(input("Enter your age : "))
+if age>60:
+  print("too old")
+elif age<18:
+  print("to young")
+else:
+  print("you are eligible")
