@@ -1,0 +1,7 @@
+# range (starting point, ending point, step size)
+# SP is included by default is 1
+# EP
+# SS step size by default is 1
+
+for i in range (0,6,1):
+  print(i)
